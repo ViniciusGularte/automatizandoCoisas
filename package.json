@@ -1,0 +1,16 @@
+{
+  "name": "automatizandocoisas",
+  "version": "1.0.0",
+  "description": "Respositorio de scripts que utilizo para automatizar algumas tarefas",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'src/test/**/*.tests.js'"
+  },
+  "author": "Vinicius Gularte",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.8.3",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
