@@ -8,6 +8,4 @@ function	autoCommit()	{
   shell.exec(`git	status`);
   shell.exec(`git	commit -m '${dataAtual}'`);
 
-
-  console.log(dataAtual);
 }
