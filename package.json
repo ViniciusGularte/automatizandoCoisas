@@ -9,8 +9,9 @@
   "author": "Vinicius Gularte",
   "license": "ISC",
   "dependencies": {
-    "shelljs": "^0.8.3",
     "chai": "^4.2.0",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "moment": "^2.23.0",
+    "shelljs": "^0.8.3"
   }
 }
