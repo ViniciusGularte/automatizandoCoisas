@@ -8,14 +8,11 @@
   },
   "author": "Vinicius Gularte",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
     "moment": "^2.23.0",
-    "shelljs": "^0.8.3"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1"
+    "shelljs": "^0.8.3",
+    "dotenv": "^6.2.0"
   }
 }

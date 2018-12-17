@@ -1,2 +1,5 @@
 const autoCommit = require("./autoCommit.js")
-setInterval(autoCommit.autoCommit, 4000);
+function loopAutoCommit(){
+  setInterval(autoCommit.autoCommit, 400000);
+}
+module.exports = {loopAutoCommit}
