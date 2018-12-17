@@ -8,13 +8,11 @@ function	autoCommit()	{
   shell.exec(`git	status`);
   shell.exec(`git	commit -m '${dataAtual}'`);
 }
-function loopAutoCommit(){
-  setInterval(autoCommit(), 400000);
-}
+setInterval(autoCommit(), 400000);
+
 function push(){
 
 }
-loopAutoCommit();
 
 let leitor = readline.createInterface({
     input: process.stdin,
